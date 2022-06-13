@@ -524,39 +524,151 @@
                                 </tbody>
                             </table>
                         </div>
-                        <div class="row mt-60">
-                            <div class="col-lg-12 d-flex justify-content-center">
-                                <nav aria-label="Page navigation" class="d-flex justify-content-center">
-                                    <ul class="pagination justify-content-center align-items-center">
-                                        <li class="page-item">
-                                            <a class="page-btn previous" href="javascript:void(0)"
-                                                aria-label="Previous">
-                                                <img src="assets/images/icon/arrow-left.png" alt="icon">
-                                            </a>
-                                        </li>
-                                        <li class="page-item"><a class="page-link xlr" href="javascript:void(0)">1</a>
-                                        </li>
-                                        <li class="page-item"><a class="page-link xlr active"
-                                                href="javascript:void(0)">2</a></li>
-                                        <li class="page-item"><a class="page-link xlr" href="javascript:void(0)">3</a>
-                                        </li>
-                                        <li class="page-item"><a class="page-link xlr" href="javascript:void(0)">4</a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-btn next" href="javascript:void(0)" aria-label="Next">
-                                                <img src="assets/images/icon/arrow-right.png" alt="icon">
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- All Soccer Bets end -->
+
+    <!-- Create Future Currency start -->
+    <section class="create-future-currency">
+        <div class="overlay">
+            <div class="container">
+                <div class="main-content">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="section-text text-center">
+                                <h3>Create Future Currency Bet</h3>
+                                <p>All bets are between users - peer to peer.</p>
+                            </div>
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="single-input">
+                                            <label for="nickname">Your Nickname for this bet</label>
+                                            <input type="text" id="nickname"
+                                                placeholder="Please insert your name or nickname">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="invite-friends">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label class="checkbox-single d-flex align-items-center">
+                                                        <span class="left-area">
+                                                            <span class="checkbox-area d-flex">
+                                                                <input type="checkbox" checked="checked">
+                                                                <span class="checkmark"></span>
+                                                            </span>
+                                                            <span class="item-title d-flex align-items-center">
+                                                                <span>Invite friends to your bet</span>
+                                                            </span>
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="single-input">
+                                                        <label for="invited-name">Invited Name</label>
+                                                        <input type="text" id="invited-name"
+                                                            placeholder="Name of the invited person">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="single-input">
+                                                        <label for="invited-email">Invited Email</label>
+                                                        <input type="text" id="invited-email"
+                                                            placeholder="Email of the invited person">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="single-input">
+                                                        <label for="message">Your message</label>
+                                                        <textarea id="message" cols="30" rows="10"
+                                                            placeholder="Your message to user"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="single-btn">
+                                                        <button class="cmn-btn">
+                                                            <i class="fas fa-plus"></i>
+                                                            Add Another
+                                                        </button>
+                                                        <button class="cmn-btn clear">
+                                                            <i class="fas fa-trash-alt"></i>
+                                                            Clear
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="single-input">
+                                            <label for="bet-amount">Bet Amount</label>
+                                            <div class="input-items d-flex">
+                                                <input type="text" id="bet-amount" placeholder="For example: 0.1">
+                                                <input type="text" disabled value="Available 1.00 BTC">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="single-input">
+                                            <label for="currency">Choose The Currency</label>
+                                            <input type="text" id="currency" placeholder="Select Currency">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="single-input d-grid">
+                                            <label for="price">In the expiration date, price will be</label>
+                                            <div class="input-select d-flex">
+                                                <select>
+                                                    <option>Below</option>
+                                                    <option value="2">Below 1</option>
+                                                    <option value="3">Below 2</option>
+                                                    <option value="4">Below 3</option>
+                                                </select>
+                                                <input type="text" id="price" placeholder="write future price">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="single-input">
+                                            <label for="closing-date">Bet Closing date/Time</label>
+                                            <input type="text" id="closing-date" placeholder="Choose Closing Date">
+                                            <p class="mdr">(No player can join this bet after this date)</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="single-input">
+                                            <label for="finish-date">Bet Expiration date/Time</label>
+                                            <input type="text" id="finish-date" placeholder="Choose Finish Date">
+                                            <p class="mdr">(Date we select the winner, based on the currency price)</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <span class="btn-border">
+                                            <a href="javascript:void(0)" class="cmn-btn">Create Currency Bet</a>
+                                        </span>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="more-info">
+                                            <ul>
+                                                <li>You can cancel any time, as long no one join your bet.</li>
+                                                <li>Base market is Solana</li>
+                                                <li>Future currency results are based on binance exchange</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Create Future Currency end -->
 
     <!-- FAQs In start -->
     <section class="faqs-section second">
