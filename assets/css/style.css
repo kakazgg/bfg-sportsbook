@@ -1,13 +1,4 @@
 /*============================================ 
-# Template Name: Bitbetio 
-# Version: 1.0
-# Date: 20/01/2022
-# Author: pixelaxis
-# Author URI: https://themeforest.net/user/pixelaxis/portfolio
-# Developed By: Pranto
-# Description: Sports Betting Website HTML Template
-============================================*/
-/*============================================ 
 ======== Table of Css Content =========
 # Typography
 # Normalize 
@@ -19,8 +10,17 @@
 ============================================*/
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Permanent+Marker&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&display=swap');
+@font-face {
+  font-family: 'Hypothetical moon of Mercury';
+  src: url('C:\Users\jbake\bfg-sportsbook-v1\bfgbetting\assets\webfonts\HypotheticalmoonofMercury.woff2') format('woff2'),
+      url('C:\Users\jbake\bfg-sportsbook-v1\bfgbetting\assets\webfonts\HypotheticalmoonofMercury.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 :root {
-  --body-font: "Nunito Sans", sans-serif;
+  --body-font: "Fjalla One", sans-serif;
   --body-color: #1F2340;
   --body-alt-color: #0d102f;
   --bg-color: ##1F2340;
@@ -5463,12 +5463,46 @@ p {
   font-size: '300px';
 }
 
+.hypotext {
+  font-family: 'Hypothetical moon of Mercury';
+  font-weight: normal;
+  font-style: normal;
+}
+
 .logoBFGtext {
-  font-size: '100px';
+  font-size: '50px'!important;
+  color: #ffffff;
 }
 
 .logothetext {
-  font-size: '15px';
+  font-size: '30px';
+}
+
+.logoBFGtext1 {
+  font-size: 110px;
+  padding-bottom: 50px;
+  color: #ffffff;
+}
+
+.title-area-1 {
+  padding-bottom: 30px;
+}
+
+.logothetext1 {
+  font-size: 60px;
+  padding-bottom: 50px;
+}
+
+.logothetext2 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.logoBFGtext2 {
+  font-size: 60px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  line-height: 75px;
 }
 
 .create-future-currency {
