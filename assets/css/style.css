@@ -882,7 +882,6 @@ p {
   transition: 0.3s;
   visibility: hidden;
   max-height: 350px;
-  overflow-y: scroll;
 }
 
 .header-section.user-dashboard .navbar-collapse .right-area .single-item .main-area.active {
@@ -4715,7 +4714,6 @@ p {
   .header-section .navbar .navbar-collapse .navbar-nav {
     height: 200px;
     margin: 20px 0;
-    overflow-y: auto;
     margin-bottom: 10px;
   }
   .header-section .navbar .navbar-collapse .navbar-nav .nav-item .dropdown-menu .dropend .dropdown-menu {

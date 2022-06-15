@@ -263,7 +263,6 @@
                         transition: 0.3s;
                         visibility: hidden;
                         max-height: 350px;
-                        overflow-y: scroll;
                         &.active {
                             transform: translateY(0px);
                             transition: 0.3s;
