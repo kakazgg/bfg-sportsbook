@@ -48,6 +48,7 @@ body {
   margin: 0;
   font-weight: 400;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 
 section,
@@ -882,6 +883,8 @@ p {
   transition: 0.3s;
   visibility: hidden;
   max-height: 350px;
+  overflow-y: scroll;
+
 }
 
 .header-section.user-dashboard .navbar-collapse .right-area .single-item .main-area.active {
